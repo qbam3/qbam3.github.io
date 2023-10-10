@@ -1,0 +1,445 @@
+body{
+    background-color: rgb(141, 245, 248);
+    margin: 0;
+    width: 100%;
+}
+.induk{
+    margin: auto;
+    width: auto;
+}
+.navi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position:relative;
+    width: auto;
+    height:160px;
+    background-color: rgb(7, 3, 60);
+}
+.navi ul li a{
+    justify-content: flex-end;
+}
+.navi li{
+    height: fit-content;
+}
+.navi li:hover{
+    transform: scale(1.1);
+}
+.navi ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    padding-right: 10px;
+    width: 1255px;
+    height: min-content;
+    margin-top: 12px;
+}
+.navi a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    transition: 1s;
+}
+.link:hover{
+    color: rgb(20, 18, 27);
+    background-color: rgb(149, 190, 243);
+    border-radius: 8px;
+    transform: scale(1.1);
+}
+.me{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top:30px;
+    right: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 110px 0;
+    background-color: rgb(128, 177, 241);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.me img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border-top: 5px solid rgb(212, 255, 248);
+    border-left: 5px solid rgb(212, 255, 248);
+    border-right: 5px solid rgb(212, 255, 248);
+    border-bottom: 5px solid rgb(212, 255, 248);
+    margin: -79px 0;
+    transition: 1s;
+}
+.me img:hover{
+    transform: translateY(-25px);
+    box-shadow: 0px 7px 90px 13px;
+}
+.me h2 {
+    color: rgb(12, 3, 54);
+}
+.me h5 {
+    margin: -20px 0 20px 0;
+    color: rgb(12, 3, 54);
+}
+.me p {
+    margin: -9px;
+    color: rgb(12, 3, 54);
+}
+.teksme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 75px;
+}
+.teksme h2{
+    transition: 1s;
+}
+.teksme h2:hover{
+    transform: scale(1.1);
+}
+.teksme h5{
+    transition: 1s;
+}
+.teksme h5:hover{
+    transform: scale(1.1);
+}
+.teksme p{
+    transition: 1s;
+}
+.teksme p:hover{
+    transform: scale(1.1);
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 280px;
+}
+.bio h2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.bio0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+}
+.bio1 img{
+    width: 140px;
+    height: 200px;
+}
+.bio2 ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 0;
+    width: auto;
+}
+.bio2 li{
+    list-style: none;
+}
+.education{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 90px;
+}
+.education h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid;
+    margin-right: 5px;
+    padding: 0 7px 0 7px;
+    width: 100%;
+    height: 150px;
+    color: rgb(0, 0, 0);
+}
+.education1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 550px;
+}
+.school{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 90px;
+}
+.school1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 90px;
+}
+.school2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 90px;
+}
+.school p{
+    margin: 0;
+}
+.school1 p{
+    margin: 0;
+}
+.school2 p{
+    margin: 0;
+}
+.kemampuan{
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    width: auto;
+    margin: 90px 0px 0px 0;
+}
+.kemampuan h2{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    color: rgb(0, 0, 0);
+}
+.kemampuanme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+}
+.kemampuanme li{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -39px;
+}
+.kemampuanme p{
+    display: flex;
+    flex-direction: row;
+    height: 170px;
+    margin-top: 70px;
+    padding-left: 5px;
+    border-left: 2px solid black;
+}
+.hard{
+    margin-right: 50px;
+}
+.hard h4{
+    display: flex;
+    justify-content: center;
+}
+.hard i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px;
+}
+.soft{
+    margin-right: 50px;
+}
+.soft h4{
+    display: flex;
+    justify-content: center;
+}
+.soft i{
+    margin: 6.8px;
+}
+.kontak{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    width: 750px;
+    height: 220px;
+    margin-top: 90px;
+}
+.bungkus_kontak{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+}
+.kontak h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    margin: 0;
+}
+.kontak p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.kontakme ul {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.kontakme li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    width: 280px;
+    
+}
+.kontakme i{
+    margin-left: -30px;
+}
+.kontakme1{
+    display: flex;
+    flex-direction: column;
+}
+.kontakme1 ul{
+    list-style: none;
+}
+.kontakme1 li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.kontakme1 i{
+    margin-left: -30px;
+}
+.pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+}
+.galeri{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+.galeri h2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.galeri0{
+    display: flex;
+    flex-direction: row;
+}
+.galeri1 img{
+    width: 500px;
+    height: 910px;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: 2s;
+}
+.galeri1 img:hover{
+    transform: translateY(-50px);
+    box-shadow: 0px 0px 25px 10px;
+}
+.galeri2{
+    display: flex;
+    flex-direction: column;
+}
+.galeri2 img{
+    width: 550px;
+    height: 290px;
+    margin: 10px;
+    transition: 2s;
+}
+.galeri2 img:hover{
+    transform: translateY(-50px);
+    box-shadow: 0px 0px 25px 10px;
+}
+.my_porto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 90px;
+    width: 100%;
+}
+.my_porto button{
+    border-radius: 7px;
+    background-color: rgb(12, 3, 54);
+    scale: 1.1;
+    transition: 2.5s;
+}
+.my_porto button:hover{
+    transform: scale(2.0);
+}
+.my_porto a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(7, 3, 60);
+    color: white;
+    margin-top: 90px;
+    width: auto;
+}
+.foot0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    width: 700px;
+}
+.foot0 li{
+    list-style: none;
+}
+.foot1 h4{
+    color: rgb(116, 178, 255);
+}
+.foot1 ul{
+    margin-top: -10px;
+    padding: 0;
+}
+.foot1 li{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.foot1 a{
+    color: white;
+    text-decoration: none;
+}
+.foot2 h4{
+    color: rgb(116, 178, 255);
+}
+.foot2 ul{
+    margin-top: -10px;
+    padding: 0;
+}
+.foot2 a{
+    color: white;
+    text-decoration: none;
+}
+.foot3 h4{
+    color: rgb(116, 178, 255);
+}
+.foot3 ul{
+    margin-top: -10px;
+    padding: 0;
+}
+.foot3 a{
+    color: white;
+    text-decoration: none;
+}
+.foot4{
+    display: flex;
+    justify-content: center;
+}
