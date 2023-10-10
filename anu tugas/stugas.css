@@ -1,0 +1,441 @@
+.induk{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-between;
+}
+.gambar img{
+	margin:10 10 10 10;
+	width:70px; 
+	height:70px;
+}
+.anak ul{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	list-style:none;
+}
+.home{
+	margin:10 10 10 10;
+}
+.tenaga_kerja{
+	margin:10 10 10 10;
+}
+.kurikulum{
+	margin:10 10 10 10;
+}
+.tentang_kami{
+	margin:10 10 10 10;
+	
+}
+.button{
+	margin:10 10 10 10;
+	height:30px;
+	background-color:blue;
+	color:white;
+	border-radius:7px;
+}
+.kepala{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	background-color:black;
+}
+.teks{
+	margin:25 0 0 120;
+	display:flex;
+	flex-direction:column;
+	align-items:flex-end;
+}
+.h{
+	display:flex;
+	justify-content:flex-end;
+	color:white;
+}
+.p{
+	color:white;
+}
+.kepala_button{
+	justify-content:flex-end;
+	border:1px solid black;
+	display:flex;
+	flex-direction:row;
+}
+.gambar_ged img{
+	display:flex;
+	justify-content:flex-end;
+	width:600px; 
+	height:270px;
+}
+.button_biru{
+	margin:10 10 10 0;
+	height:30px;
+	background-color:blue;
+	color:white;
+	border-radius:7px;
+}
+.button_putih{
+	margin:10 10 10 0;
+	height:30px;
+	background-color:white;
+	color:black;
+	border-radius:7px;
+}
+.info{
+	display:flex;
+	flex-direction:column;
+	margin:40 0 0 0;
+}
+.berita{
+	display:flex;
+	justify-content:center;
+}
+.ket{
+	display:flex;
+	margin:-30 0 0 0;
+	justify-content:center;
+}
+.isi{
+	display:flex;
+	flex-direction:row;
+	margin:10 0 0 0;
+	
+}
+.ktk{
+	display:flex;
+	flex-direction:column;
+	padding:10 10 10 10;
+	justify-content:center;
+}
+.bngks img{
+	display:flex;
+	justify-content:center:
+	padding:10 10 10 10;
+	width:400px;
+	height: 200px;
+}
+.ktk_satu{
+	display:flex;
+	flex-direction:column;
+	padding:5 5 5 5;
+	justify-content:center;
+}
+.bngks_satu img{
+	display:flex:
+	justify-content:center;
+	padding:5 5 5 5;
+	width:400px;
+	height: 200px;
+}
+.ktk_dua{
+	display:flex;
+	flex-direction:column;
+	padding:5 5 5 5;
+	justify-content:center;
+}
+.bngks_dua img{
+	display:flex;
+	justify-content:center;
+	padding:10 10 10 10;
+	width:380px;
+	height:200px;
+}
+.pen{
+	color:blue;
+	margin:-10 0 0 0;
+}
+.pen1{
+	margin:-30 0 0 0;
+}
+.pen2{
+	margin:-30 0 0 0;
+}
+.rep{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+	align-items:center;
+	margin:-20 0 0 0;
+}
+.picwrt img{
+	display:flex;
+	width:50px;
+	height:50px;
+	margin:0 0 0 10
+}
+.galeri{
+	display:flex;
+	flex-direction:column;
+	margin:40 0 0 0;
+}
+.glr{
+	display:flex;
+	justify-content:center;
+}
+.ketera{
+	display:flex;
+	justify-content:center;
+	margin:-30 0 0 0;
+}
+.isi_dua{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	gap:10px;
+}
+.pic, .pic_satu, .pic_dua{
+	display:flex;
+	width:35%;
+}
+.pic_satu, .pic_dua{
+	display:flex;
+	flex-direction:column;
+	width:35%;
+}
+.pic_satu, .pic_dua{
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+}
+.pic img{
+	width:100%;
+	height:1000px;
+}
+.pic_satu img{
+	width:100%;
+}
+.pic_dua img{
+	width:100%;
+}
+#alamtiga{
+	height:40%;
+}
+#alamdua{
+	height:60%;
+}
+#alamlima{
+	height:70%;
+}
+#alamempat{
+	height:30%;
+}
+.kontak{
+	display:flex;
+	flex-direction:column;
+	margin:100 0 0 0;
+}
+.kntk{
+	display:flex;
+	justify-content:center;
+}
+.keter{
+	display:flex;
+	justify-content:center;
+	margin:-30 0 0 0;
+}
+.isi_kontak{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+}
+.left{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:flex-end;
+	margin:0 55 70 -10;
+	width:100%;
+}
+.right{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:flex-start;
+	margin:10 0 0 0;
+	width:100%;
+}
+.one{
+	display:flex;
+	flex-direction:row;
+}
+.two{
+	display:flex;
+	flex-direction:row;
+}
+.three{
+	display:flex;
+	flex-direction:row;
+}
+.phone{
+	display:flex;
+	flex-direction:column;
+}
+.phone h4{
+	display:flex;
+	flex-direction:column;
+	align-items:flex-end;
+}
+
+.phone p{
+	display:flex;
+	flex-direction:column;
+	margin:-25 0 0 0;
+}
+.email{
+	display:flex;
+	flex-direction:column;
+}
+.email h4{
+	display:flex;
+	flex-direction:column;
+	align-items:flex-end;
+}
+.email p{
+	display:flex;
+	flex-direction:column;
+	margin:-25 0 0 0;
+}
+.location{
+	display:flex;
+	flex-direction:column;
+}
+.location h4{
+	display:flex;
+	flex-direction:column;
+	align-items:flex-end;
+}
+.location p{
+	display:flex;
+	flex-direction:column;
+	margin:-25 0 0 0;
+}
+
+.icphon img{
+	display:flex;
+	width:40px;
+	height:40px;
+	margin:20 0 0 10;
+}
+.icmail img{
+	display:flex;
+	width:40px;
+	height:40px;
+	margin:0 0 0 10;
+}
+.icloc img{
+	display:flex;
+	width:40px;
+	height:40px;
+	margin:0 0 0 10;
+}
+.confirm input ,textarea{
+	display:flex;
+	flex-direction:column;
+	width:100%;
+}
+.bphon{
+	display:flex;
+	type:text;
+	width:100%;
+	height:30px;
+	margin:0 0 10 10;
+}
+.bmail{
+	display:flex;
+	type:text;
+	height:30px;
+	width:100%;
+	margin:0 0 10 10;
+}
+.bloc{
+	display:flex;
+	type:text;
+	width:100%;
+	margin:0 0 40 10;
+}
+.butt button{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	type:submit;
+	width:100%;
+	margin:-20 0 50 10;
+	background-color:blue;
+	color:white;
+	border-radius:7px;
+}
+.foot{
+	display:flex;
+	flex-direction:row;
+	align-items:flex-start;
+	background-color:black;
+	color:white;
+}
+.foot .pens_foot{
+	width:25%;
+}
+.last{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	background-color:black;
+	margin:0 0 0 0;
+}
+.last .link{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+	margin:70 0 0 0;
+}
+.pens_foot{
+	display:flex;
+	justify-content:center;
+	width:100px;
+	height:120px;
+}
+.fac{
+	display:flex;
+	width:20px;
+	height:20px;
+	background-color:white;
+	margin:0 10 0 0;
+}
+.twi{
+	display:flex;
+	width:20px;
+	height:20px;
+	background-color:white;
+	margin:0 10 0 0;
+}
+.ins{
+	display:flex;
+	width:20px;
+	height:20px;
+	background-color:white;
+}
+.link{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	padding:0 70 0 0;
+}
+#list{
+	width:25%;
+}
+#list h3{
+	margin:0 5 0 0;
+}
+#list li{
+	list-style:none;
+}
+.end{
+	display:flex;
+	flex-direction:row;
+	background-color:black;
+	justify-content:flex-start;
+	color:white;
+	margin:60 0 0 40;
+}
